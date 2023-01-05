@@ -163,6 +163,8 @@ class MeetingView(generics.GenericAPIView):
                     '\n Thanks,' +'\n Terralogic Team' 
             data = {'email_body': email_body, 'to_email': user.email,}
 
+
+
             # serializer = self.serializer_class(data=request.data)
             # if  not serializer.is_valid():
                 # return response(serializer.ERROR,status=status.HTTP_400_BAD_REQUEST)
